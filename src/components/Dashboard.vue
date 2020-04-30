@@ -1,6 +1,7 @@
 <template>
   <div id="dashboard">
-    <LeftMenu LeftMenu_Title="Titi"/>
+      <LeftMenu LeftMenu_Title="Titi"/>
+      <Historic Historic_Title="Oulala"/>
     <Footer Footer_Title="Toast"/>
 
   </div>
@@ -8,13 +9,15 @@
 
 <script>
 import LeftMenu from './LeftMenu.vue'
+import Historic from './Historic.vue'
 import Footer from './Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Footer,
-    LeftMenu
+    LeftMenu,
+    Historic
   }
 }
 </script>

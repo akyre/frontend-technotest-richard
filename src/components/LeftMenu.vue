@@ -60,8 +60,7 @@ export default {
 	}
 
 	li {
-		display: block;
-		float: left;
+		display: inline-block;
 	}
 
 
