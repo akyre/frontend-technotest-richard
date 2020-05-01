@@ -4,17 +4,13 @@
         <div class="blue-box">
             <div>
                 <div>
-                    <div class="ThirtySize robotoMediumItalic">Emilie - Architecte Cloud</div>
-                    <div style="display: flex; margin-top: 5px;"><div class="robotoThinItalic TwentyFiveSize">{history.date}</div> <div style="margin-left: 6px" class="robotoMediumItalic TwentyFiveSize"> - {history.hour}</div></div>
+                    <div class="ThirtySize robotoMediumItalic">{Prénom} - {Métier}</div>
+                    <div style="display: flex; margin-top: 5px;"><div class="robotoThinItalic TwentyFiveSize">{Date d'entretien}</div> <div style="margin-left: 6px" class="robotoMediumItalic TwentyFiveSize"> - {Heure d'entretien}</div></div>
                 </div>
                 <div class="insight-ctn">
-                    <div title="{history.note.mean}">
-                        {#each arrOfStar as currStar}
-                            <span class="{currStar.className}"></span>
-                        {/each}
-                    </div>
+
                     <div class="insight robotoThinItalic">
-                        {history.note.count} avis
+                        {Note de l'intervenant} avis
                     </div>
                 </div>
             </div>
@@ -25,7 +21,7 @@
         <div class="comment">
             <div class="robotoLightItalic ThirtySize">Commentaire:</div>
             <div class="comment-content robotoLightItalic TwentyFourSize">
-                {history.comment}
+                {Texte Commentaire}
             </div>
         </div>
     </div>

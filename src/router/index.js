@@ -11,13 +11,22 @@ const routes = [{
 
     },
     {
-        path: '/Dashboard',
-        name: 'Dashboard',
+        path: '/LeftMenu',
+        name: 'LeftMenu',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-            import ( /* webpackChunkName: "Dashboard" */ '../components/Dashboard.vue')
+            import ( /* webpackChunkName: "Dashboard" */ '../components/LeftMenuPage.vue')
+    },
+    {
+        path: '/Historic',
+        name: 'Historic',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import ( /* webpackChunkName: "Dashboard" */ '../components/HistoricPage.vue')
     }
 ]
 
