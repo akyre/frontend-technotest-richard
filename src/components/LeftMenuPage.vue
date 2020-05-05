@@ -97,10 +97,10 @@ export default {
 		color: #F6F9FC;
 	}
 
-	[aria-current] {
+	/*[aria-current] {
 		background-color: #6689E6!important;
 		color: #F6F9FC!important;
-	}
+	}*/
 
 	.nav-container {
 		background-color: #F6F9FC;

@@ -4,7 +4,7 @@
         <div class="blue-box">
             <div>
                 <div>
-                    <div class="ThirtySize robotoMediumItalic">{Prénom} - {Métier}</div>
+                    <div class="ThirtySize robotoMediumItalic">{{ First_Name }} - {{ Job }}</div>
                     <div style="display: flex; margin-top: 5px;"><div class="robotoThinItalic TwentyFiveSize">{Date d'entretien}</div> <div style="margin-left: 6px" class="robotoMediumItalic TwentyFiveSize"> - {Heure d'entretien}</div></div>
                 </div>
                 <div class="insight-ctn">
@@ -21,7 +21,7 @@
         <div class="comment">
             <div class="robotoLightItalic ThirtySize">Commentaire:</div>
             <div class="comment-content robotoLightItalic TwentyFourSize">
-                {Texte Commentaire}
+                {{ Commentary }}
             </div>
         </div>
     </div>
@@ -40,9 +40,7 @@
 <script>
 export default {
   name: 'Historic',
-  props: {
-    Historic_Title: String
-  }
+  props: ['Commentary']
 }
 
 </script>

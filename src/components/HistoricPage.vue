@@ -2,11 +2,12 @@
   <div id="Historic_page">
       <NavBar Navbar_Title="Test"/>
       <div class="historic-title">
-		<h3 class="nav-section-title">Historic</h3>
+        <h3 class="nav-section-title">Historic</h3>
 
+        <Historic Commentary="Katli"/>
+
+        <Historic Commentary="Test"/>
       </div>
-      <Historic Historic_Title="Oulala"/>
-      <Historic Historic_Title="Oulala"/>
     <Footer Footer_Title="Toast"/>
 
   </div>
