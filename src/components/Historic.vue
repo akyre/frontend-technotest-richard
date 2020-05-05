@@ -5,12 +5,12 @@
             <div>
                 <div>
                     <div class="ThirtySize robotoMediumItalic">{{ First_Name }} - {{ Job }}</div>
-                    <div style="display: flex; margin-top: 5px;"><div class="robotoThinItalic TwentyFiveSize">{Date d'entretien}</div> <div style="margin-left: 6px" class="robotoMediumItalic TwentyFiveSize"> - {Heure d'entretien}</div></div>
+                    <div style="display: flex; margin-top: 5px;"><div class="robotoThinItalic TwentyFiveSize">{{ Meeting_Date }}</div> <div style="margin-left: 6px" class="robotoMediumItalic TwentyFiveSize"> - {{ Meeting_Hour }}</div></div>
                 </div>
                 <div class="insight-ctn">
-
                     <div class="insight robotoThinItalic">
-                        {Note de l'intervenant} avis
+                        <img src="../assets/stars.png">
+                        {{ Rating }} avis
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
 <script>
 export default {
   name: 'Historic',
-  props: ['Commentary']
+  props: ['Commentary', 'First_Name', 'Job', 'Meeting_Date', 'Rating', 'Meeting_Hour']
 }
 
 </script>
@@ -90,6 +90,13 @@ export default {
     .message {
         display: flex;
         justify-content: flex-end;
+        flex-grow: 1;
+        align-items: flex-end;
+    }
+
+    .stars {
+        display: flex;
+        justify-content: flex-start;
         flex-grow: 1;
         align-items: flex-end;
     }

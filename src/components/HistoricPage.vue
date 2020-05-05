@@ -3,10 +3,11 @@
       <NavBar Navbar_Title="Test"/>
       <div class="historic-title">
         <h3 class="nav-section-title">Historic</h3>
+        <Historic Commentary="Super conseils comme toujours Tom. Bisous à toi" First_Name="Tom" Job='Business Analyst' Rating='5' Meeting_Date='Jeudi 14 avril 2019' Meeting_Hour='14h08'/>
 
-        <Historic Commentary="Katli"/>
+        <Historic Commentary="Merci, J'espère pouvoir retravailler avec vous ! Ciao" First_Name="Emilie" Job='Architecte Cloud' Rating='12' Meeting_Date='Mardi 12 août 2019' Meeting_Hour='17h27'/>
 
-        <Historic Commentary="Test"/>
+
       </div>
     <Footer Footer_Title="Toast"/>
 
