@@ -20,6 +20,15 @@ const routes = [{
             import ( /* webpackChunkName: "Dashboard" */ '../components/LeftMenuPage.vue')
     },
     {
+        path: '/Product',
+        name: 'Product',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import ( /* webpackChunkName: "Dashboard" */ '../components/Product.vue')
+    },
+    {
         path: '/Historic',
         name: 'Historic',
         // route level code-splitting

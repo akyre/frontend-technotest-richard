@@ -6,7 +6,7 @@
         <Historic Commentary="Super conseils comme toujours Tom. Bisous à toi" First_Name="Tom" Job='Business Analyst' Rating='5' Meeting_Date='Jeudi 14 avril 2019' Meeting_Hour='14h08'/>
 
         <Historic Commentary="Merci, J'espère pouvoir retravailler avec vous ! Ciao" First_Name="Emilie" Job='Architecte Cloud' Rating='12' Meeting_Date='Mardi 12 août 2019' Meeting_Hour='17h27'/>
-
+        <Product  Job='Business Analyst' Rating='5' Meeting_Date='Jeudi 14 avril 2019' Meeting_Hour='14h08'/>
 
       </div>
     <Footer Footer_Title="Toast"/>
@@ -18,13 +18,16 @@
 import Historic from './Historic.vue'
 import Footer from './Footer.vue'
 import NavBar from './NavBar.vue';
+import Product from './Product.vue';
+
 
 export default {
   name: 'App',
   components: {
     Footer,
     Historic,
-    NavBar
+    NavBar,
+    Product
   }
 }
 </script>
